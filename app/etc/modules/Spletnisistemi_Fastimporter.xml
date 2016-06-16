@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Spletnisistemi_Fastimporter>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Spletnisistemi_Fastimporter>
+    </modules>
+</config> 

@@ -1,0 +1,31 @@
+/* .expand div table tbody tr td:nth-child(2) {
+*/
+.expand .form-list tr td:nth-child(2) {
+    width: 100%;
+}
+
+/* Popup */
+.big {
+    color: #434C4F;
+    font-size: 13px;
+    font-weight: 700;
+}
+.fi_label {
+    position: absolute;
+    left: 13px;
+}
+.fi_right {
+    margin-left: 120px;
+    float: left;
+}
+
+#fi_progress .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 11px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+.clear {
+    clear: both;
+}

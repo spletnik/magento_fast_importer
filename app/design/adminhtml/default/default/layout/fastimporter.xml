@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <fastimporter_adminhtml_fastimporter_index>
+        <reference name="content">
+            <block type="fastimporter/adminhtml_fastimporter" name="fastimporter"/>
+        </reference>
+    </fastimporter_adminhtml_fastimporter_index>
+    <default>
+        <reference name="head">
+            <action method="addCss">
+                <stylesheet>fastimporter/admin.css</stylesheet>
+            </action>
+            <action method="addCss">
+                <stylesheet>fastimporter/jquery-ui-1.10.0.custom.min.css</stylesheet>
+            </action>
+            <action method="addjs">
+                <script>fastimporter/jquery-1.9.0.js</script>
+            </action>
+            <action method="addjs">
+                <script>fastimporter/jquery-ui-1.10.0.custom.min.js</script>
+            </action>
+            <action method="addjs">
+                <script>fastimporter/fastimporter.js</script>
+            </action>
+        </reference>
+    </default>
+</layout>
