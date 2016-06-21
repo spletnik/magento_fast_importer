@@ -36,22 +36,22 @@ Here is a list of attributes for the CSV file:
 
 **Table: General Attributes**
 
-| Attribute name | Attribute description | Value | Required |
-|---|
-| name | The name of the product.This name is visible on your product description page as well as anywhere this product is listed. It is used by customers to identify the product | text | yes |
-| description | Description of the product. This is an important text field, especially as a selling tool, because it is the main way customers learn about the product. | text | yes |
-| short_description | A shorter description of the product that customers will immediately see when viewing the product description page. | text | yes |
-|sku |The Stock-Keeping Unit. This is the unique alphanumeric alphanumeric identifier that you use to track this product and its quantity in your inventory system. <br>Note: SKU supports up to 64 alphanumeric characters. Import will fail if it encounters SKU values that are more than 64 characters. |alphanumeric (A-Z,0-9)|yes|
-|type|Specifies the type of product. This field indicates whether this product is a simple or complex product—complex products being those that require additional configuration. Product types include: simple - Physical items that are generally sold as single units or in fixed quantities. configurable - A product with variations that the customer has the option to select.|simple<br> group<br> configurable|yes|
-|weight|The product weight in determined by the shipping provider selected.|Numeric value|yes|
-|news_from_date|This field specifies the “from” date that the product is considered new, and would be featured in your “new products” listings.|Date and Time|no|
-|news_to_date|This field specifies the “to” date that the product is considered new, and would be featured in your “new products” listings.|Date and Time|no|
-|websites|Refers to the Main Website in the Manage Stores section.|base|yes|
-|status|If set to “enabled,” the product will be available 1, 0 for sale in our store. If set to “disabled,” the prouduct will not appear in your catalog.|1, 0|yes|
-|url_key|The URL key (or the product identifying portion) of the product’s web address. For example, if the URL key is “my-sample-product,“ then the address might be: “example.gostorego.com/category/my-sample-product.html”|text|no|
-|visibility|Specify whether this product is visible from the catalog, search, both, or neither.|1 = Not visible <br> 2 = Catalog<br> 3 = Search<br> 4 = Catalog, Search|yes|
-|gift_message_available|This field specifies if a message can be included with this product purchase. If left blank, will use the default configuration. (See: System > Configuration > Sales > Gift Option )|0 = no <br> 1 = yes <br> \[blank\] = (uses default)|no|
-|is_imported|Specify if this product can be included in product RSS feeds by setting this to either “yes” or “no.”|yes, no|no|
+Attribute name | Attribute description | Value | Required
+---|---|---|---
+name | The name of the product.This name is visible on your product description page as well as anywhere this product is listed. It is used by customers to identify the product | text | yes 
+description | Description of the product. This is an important text field, especially as a selling tool, because it is the main way customers learn about the product. | text | yes 
+short_description | A shorter description of the product that customers will immediately see when viewing the product description page. | text | yes 
+sku |The Stock-Keeping Unit. This is the unique alphanumeric alphanumeric identifier that you use to track this product and its quantity in your inventory system. <br>Note: SKU supports up to 64 alphanumeric characters. Import will fail if it encounters SKU values that are more than 64 characters. |alphanumeric (A-Z,0-9)|yes
+type|Specifies the type of product. This field indicates whether this product is a simple or complex product—complex products being those that require additional configuration. Product types include: simple - Physical items that are generally sold as single units or in fixed quantities. configurable - A product with variations that the customer has the option to select.|simple<br> group<br> configurable|yes
+weight|The product weight in determined by the shipping provider selected.|Numeric value|yes
+news_from_date|This field specifies the “from” date that the product is considered new, and would be featured in your “new products” listings.|Date and Time|no
+news_to_date|This field specifies the “to” date that the product is considered new, and would be featured in your “new products” listings.|Date and Time|no
+websites|Refers to the Main Website in the Manage Stores section.|base|yes
+status|If set to “enabled,” the product will be available 1, 0 for sale in our store. If set to “disabled,” the prouduct will not appear in your catalog.|1, 0|yes
+url_key|The URL key (or the product identifying portion) of the product’s web address. For example, if the URL key is “my-sample-product,“ then the address might be: “example.gostorego.com/category/my-sample-product.html”|text|no
+visibility|Specify whether this product is visible from the catalog, search, both, or neither.|1 = Not visible <br> 2 = Catalog<br> 3 = Search<br> 4 = Catalog, Search|yes
+gift_message_available|This field specifies if a message can be included with this product purchase. If left blank, will use the default configuration. (See: System > Configuration > Sales > Gift Option )|0 = no <br> 1 = yes <br> \[blank\] = (uses default)|no
+is_imported|Specify if this product can be included in product RSS feeds by setting this to either “yes” or “no.”|yes, no|no
 
 **Table: Price Attributes**
 
