@@ -22,5 +22,5 @@ Operates directly in SQL and is the result of a deep analysis of the Magento Dat
 ## Implementation
 - Extension is compatible with: 1.3.x, 1.4.x, 1.5.x, 1.6.x, 1.7.x, 1.8x, 1.9.x
 
-## Manual
-You can download manual [here](doc/manual-v1.4.pdf)
+## Installation
+More info about installation is [here](doc/INSTALL.md).
