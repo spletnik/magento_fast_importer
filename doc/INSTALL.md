@@ -36,8 +36,8 @@ Here is a list of attributes for the CSV file:
 
 **Table: General Attributes**
 
-Attribute name | Attribute description | Value | Required
----|---|---|---
+|Attribute name | Attribute description | Value | Required|
+|---|---|---|---|
 name | The name of the product.This name is visible on your product description page as well as anywhere this product is listed. It is used by customers to identify the product | text | yes 
 description | Description of the product. This is an important text field, especially as a selling tool, because it is the main way customers learn about the product. | text | yes 
 short_description | A shorter description of the product that customers will immediately see when viewing the product description page. | text | yes 
@@ -55,8 +55,8 @@ is_imported|Specify if this product can be included in product RSS feeds by sett
 
 **Table: Price Attributes**
 
-Attribute name | Attribute description | Value | Required
----|---|---|---
+|Attribute name | Attribute description | Value | Required|
+|---|---|---|---|
 |price|The price the product is on sale for.|Numeric value|yes|
 |special_price|The special sale price for the product during the special sale period.|Numeric value|no|
 |special_from_date|Specifies the beginning date that the product is available at the special sale price. The date can be entered in either a 12- or 24-hour format, and can optionally include the time. Click the calendar button to select the date, or enter the date and time using one of the available formats.|Date and Time<br>formats:<br>MM/DD/YYYY<br>hour:minute:sec<br>onds<br>AM or PM<br><br>Examples:<br>8/21/2012<br>12:00:00 AM<br>(midnight)<br>8/21/2012<br>24:00:00<br>(midnight)<br>8/21/2012<br>12:00:00 PM<br>(noon)|no|
@@ -66,24 +66,24 @@ Attribute name | Attribute description | Value | Required
 
 **Table: Meta Information Attributes**
 
-Attribute name | Attribute description | Value | Required
----|---|---|---
+|Attribute name | Attribute description | Value | Required|
+|---|---|---|---|
 |meta_title|The meta title of the product. This meta title is not visible on your web store, only to search engines.|text|yes|
 |meta_keyword|The meta keywords of the product. These keywords are not visible on your web store, only to search engines.|text|no|
 |meta_description|The meta description of the product . This description is not visible on your web store, only to search engines.|text|no|
 
 **Table: Images Attributes**
 
-Attribute name | Attribute description | Value | Required
----|---|---|---
+|Attribute name | Attribute description | Value | Required|
+|---|---|---|---|
 |image|The URL (address) of the base image, or the main image of the product that is displayed when customer clicks the image in the description page.|url|yes|
 |thumbnail|The URL (address) of the thumbnail image, or the product image that is shown in product listings.|url|no|
 |small_image|The URL (address) of the small image, or the url image that will be displayed in the product description page.|url|no|
 
 **Table: Preloaded Attributes**
 
-Attribute name | Attribute description | Value | Required
----|---|---|---
+|Attribute name | Attribute description | Value | Required|
+|---|---|---|---|
 |color|The color of the product. This is especially useful for identification and description when you have multiple colors of the same product.|text|no|
 |cost|The cost of the product. For internal purposes only.|Numeric value|no|
 |manufacturer|The name of the manufacturer of the product. This field can be used by customers to narrow search results to specific manufacturers.|text|no|
