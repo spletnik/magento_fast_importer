@@ -1,0 +1,16 @@
+app/code/local/Spletnisistemi/Fastimporter                                              app/code/local/Spletnisistemi/Fastimporter
+app/design/adminhtml/default/default/layout/fastimporter.xml                            app/design/adminhtml/default/default/layout/fastimporter.xml
+app/design/frontend/default/default/layout/fastimporter.xml                             app/design/frontend/default/default/layout/fastimporter.xml
+app/design/frontend/default/default/template/fastimporter                               app/design/frontend/default/default/template/fastimporter
+app/etc/modules/Spletnisistemi_Fastimporter.xml                                         app/etc/modules/Spletnisistemi_Fastimporter.xml
+js/fastimporter                                                                         js/fastimporter
+magmi                                                                                   magmi
+media/import/delete_all.csv                                                             media/import/delete_all.csv
+media/import/example.csv                                                                media/import/example.csv
+media/import/exampleDelete.csv                                                          media/import/exampleDelete.csv
+media/import/testDelete.csv                                                             media/import/testDelete.csv
+media/import/testNokiaHTC.csv                                                           media/import/testNokiaHTC.csv
+media/import/testSimpleMinimal.csv                                                      media/import/testSimpleMinimal.csv
+media/import/testSimpleMinimal10k.csv                                                   media/import/testSimpleMinimal10k.csv
+skin/adminhtml/default/default/fastimporter                                             skin/adminhtml/default/default/fastimporter
+var/log/fastimporter_data.log                                                           var/log/fastimporter_data.log
