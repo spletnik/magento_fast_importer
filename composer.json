@@ -1,0 +1,17 @@
+{
+    "name": "spletnik/magento_fast_importer",
+    "license": "GPLv3",
+    "type": "magento-module",
+    "description": "Fast Importer will solve all your import problems",
+    "homepage": "https://github.com/spletnik/magento_fast_importer",
+    "authors": [
+        {
+            "name": "Spletnik",
+            "website": "https://spletnik.si"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
+
